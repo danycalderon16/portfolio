@@ -1,0 +1,37 @@
+.divider {
+    display: flex;
+
+    &:before,
+    &:after {
+        content: "";
+        flex: 1;
+    }
+}
+
+// Base line
+.line {
+    align-items: center;
+    margin: 1em -1em;
+
+    &:before,
+    &:after {
+        height: 1px;
+        margin: 0 1em;
+    }
+}
+
+.double-razor {
+
+    &:before,
+    &:after {
+        height: 3px;
+        box-shadow: // Chrome
+            0 -0.5px 0 black,
+            0 0.5px 0 black;
+        // border: solid black; // Safari
+        border-width: 0;
+    }
+}
+h3{
+    font-weight: 300;
+}
