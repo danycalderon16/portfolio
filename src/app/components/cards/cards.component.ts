@@ -16,7 +16,7 @@ export class CardsComponent implements OnInit {
           "id":"1001",
           "name":"App de prestamos",
           "description":"Aplicación de Android para realizar un seguimiento de los préstamos, tener un registro de préstamos y pagos realizados por los clientes, guardar datos importantes y generar estadísticas, con almacenamiento en la nube usando Firestore.",
-          "images":["task-0"],
+          "images":["loans-0"],
           "tools":["android-studio","java","firebase"]
       },
       {
@@ -30,7 +30,7 @@ export class CardsComponent implements OnInit {
           "id":"1003",
           "name":"Carrito de compras",
           "description":"Aplicación híbrida de un carrito de compras, donde se agregan productos y se simula una compra.",
-          "images":["task-0"],
+          "images":["ecommerce-0"],
           "tools":["angular","ionic","firebase"]
       },
       {

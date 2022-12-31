@@ -43,6 +43,10 @@ mat-card-content{
   margin: 0;
   padding: 0;
 }
+.icons{
+  display: flex;
+  justify-content: space-between;
+}
 .tools{
   display: flex;
   justify-content: flex-start;
