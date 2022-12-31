@@ -1,7 +1,7 @@
 <div class="cards">
   <mat-card class="card"  *ngFor="let item of projects">
     <div class="img">
-      <img class="card-img" src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">    
+      <img class="card-img" src="../../../assets/img/{{item.images[0]}}.png" alt="Photo of a Shiba Inu">    
     </div>
     <mat-card-content>
       <mat-card-title>Shiba Inu</mat-card-title>
@@ -11,5 +11,9 @@
         bred for hunting.
       </p>
     </mat-card-content>
+    <div class="tools">
+      <div class="tool" *ngFor="let tool of item.tools">
+        <img src="../../../assets/icons/{{tool}}.svg" alt=""></div>
+      </div>
   </mat-card>
 </div>

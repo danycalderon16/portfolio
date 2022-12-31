@@ -1,0 +1,16 @@
+[
+    {
+        "id":"1001",
+        "name":"Lista de tareas",
+        "description":"Aplicación híbrida para registrar tareas y marcarlas como completadas y descompletadas",
+        "images":["task-0"],
+        "tools":["angular","ionic"]
+    },
+    {
+        "id":"1001",
+        "name":"Lista de tareas",
+        "description":"Aplicación híbrida para registrar tareas y marcarlas como completadas y descompletadas",
+        "images":["task-0"],
+        "tools":["angular","ionic"]
+    }
+]
