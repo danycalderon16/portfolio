@@ -7,7 +7,7 @@
 }
 .card{
   margin: 0;
-  padding: 0.5rem;
+  padding: 1rem;
   max-width: 400px;
   box-shadow: -1px 0px 35px -8px rgba(0,0,0,0.68);
 -webkit-box-shadow: -1px 0px 35px -8px rgba(0,0,0,0.68);
@@ -25,6 +25,18 @@
   background-size: contain;
   max-height: 200px;
 }
+mat-card-title{
+  
+  line-height: 2.3rem;
+}
+mat-card-content{
+  margin-bottom: 1rem;
+  p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: justify;
+  }
+}
 .img{
   display: flex;
   justify-content: center;
@@ -39,6 +51,11 @@
   width: 30px;
   height: 30px;
   margin-right: 1rem;
-  border: 1px solid gray;
   border-radius: 50px;
+  padding: 2px;
+  border: 1px solid rgb(169, 169, 169);
+  img{
+    width: 26px;
+    height: 26px;
+  }
 }
