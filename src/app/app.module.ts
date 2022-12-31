@@ -8,6 +8,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { MatCardModule } from '@angular/material/card';
     HeaderComponent,
     NavBarComponent,
     ProjectsComponent,
-    CardsComponent
+    CardsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
