@@ -16,8 +16,10 @@
         </div>
       </div>
       <div class="links">
-        <div class="tool">
-          <img src="../../../assets/icons/github.svg" alt="">
+        <div class="tool" *ngFor="let link of item.link">
+          <a href={{link.link}} target="_blank">
+            <img src="../../../assets/icons/{{link.icon}}.svg" alt="">
+          </a>
         </div>
       </div>
     </div>

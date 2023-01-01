@@ -4,4 +4,10 @@ export class Project{
     description:string
     tools:string[]
     images:string[]
+    link:Link[]
+}
+
+class Link{
+    link:string
+    icon:string
 }
